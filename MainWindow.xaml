@@ -1,0 +1,11 @@
+﻿<Window x:Class="Connect4Client.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Connect 4" Height="450" Width="800">
+    <Grid>
+        <Canvas Name="gameCanvas" Background="White" Width="350" Height="300" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <Button Name="connectButton" Content="Connect to Server" HorizontalAlignment="Left" VerticalAlignment="Top" Width="150" Margin="10,310,0,0" Click="ConnectButton_Click"/>
+        <TextBlock Name="statusText" Text="Enter server IP and click Connect" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="170,310,0,0" Width="400"/>
+        <TextBox Name="serverIPTextBox" Width="150" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,350,0,0"/>
+    </Grid>
+</Window>
