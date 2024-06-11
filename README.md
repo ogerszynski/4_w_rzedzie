@@ -12,5 +12,8 @@ Gra odbywa się na pionowej, sześciorzędowej i siedmiokolumnowej planszy. Grac
 
 Parametry programu:
 Język: C#
-Program typu klient-serwer: połączenie klient1-serwer i klient2-serwer
-Program będzie czekał na ponowne połączenie jeśli użytkownik się rozłączy.
+Program typu klient-serwer: połączenie klient1-serwer i klient2-serwer.
+
+Program umożliwia przywrócenie stanu rozgrywki po rozłączeniu użytkownika z serwerem (przycisk updateboard).
+
+Dodatkowy opis uruchamiania i rozgrywki znajduje się w załączonym tutorialu wideo.
